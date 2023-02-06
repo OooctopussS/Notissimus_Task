@@ -1,0 +1,27 @@
+*, *::after, *::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+    color: white;
+    font-family: open sans,sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #dfdfdf;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1680px;
+    margin: 0 auto;
+}
